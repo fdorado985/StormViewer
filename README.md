@@ -11,6 +11,8 @@ You'll see an app that lets users scroll through a list of images, then select o
 - [x] **Collect the NSSL images** : Look for the images with the prefix `nssl` and add them to an array property.
 - [x] **Add UITableViewController** : Add the `UITableViewController` that will show the data.
 - [x] **Add UITableViewCell** : Add the `UITableViewCell` to show the data on the pictures array.
+- [x] **Design Detail Screen** : Add a `ViewController` to show the selected image.
+- [x] **Load images with UIImage** : Load the images on the `DetailViewController`. 
 
 ## Demo
 ### features/listing-images-with-filemanager
