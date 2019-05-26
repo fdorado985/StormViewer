@@ -14,9 +14,17 @@ class DetailViewController: UIViewController {
 
   @IBOutlet var imageView: UIImageView!
 
+  // MARK: - Public properties
+
+  var selectedImage: String?
+
   // MARK: - View cycle
   
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    if let imageToLoad = selectedImage {
+      imageView.image = UIImage(named: imageToLoad)
+    }
   }
 }
