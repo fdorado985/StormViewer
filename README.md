@@ -13,6 +13,7 @@ You'll see an app that lets users scroll through a list of images, then select o
 - [x] **Add UITableViewCell** : Add the `UITableViewCell` to show the data on the pictures array.
 - [x] **Design Detail Screen** : Add a `ViewController` to show the selected image.
 - [x] **Load images with UIImage** : Load the images on the `DetailViewController`. 
+- [x] **`hidesBarsOnTap` and safe area margins** : Add Large Titles to `ViewController` only, hide navigation bar when tap on `DetailViewController` and the bottom indicator of iPhone X.
 
 ## Demo
 ### features/listing-images-with-filemanager
@@ -24,3 +25,14 @@ You'll see an app that lets users scroll through a list of images, then select o
 | Screenshot 02 |
 | ------------- |
 | ![screenshot02](.screenshots/screenshot02.png) |
+
+### features/load-images
+| Screenshot 03 |
+| ------------- |
+| ![screenshot03](.screenshots/screenshot03.png) |
+
+### features/final-tweaks
+
+| Screenshot 04 | Screenshot 05 | Screenshot 06 |
+| ------------- | ------------- | ------------- |
+| ![screenshot04](.screenshots/screenshot04.png) | ![screenshot05](.screenshots/screenshot05.png) | ![screenshot06](.screenshots/screenshot06.png) |

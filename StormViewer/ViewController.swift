@@ -19,6 +19,10 @@ class ViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
+    navigationController?.navigationBar.prefersLargeTitles = true // This allows largeTitles on this controller and next controllers
+
+    title = "Storm Viewer" // Gives the title to the navigation view
+
     let fm = FileManager.default // This let us work with the filesystem that we will be using to look for files.
     let path = Bundle.main.resourcePath! // This sets the resource path of our app's bundle. "Tell me where I can find all those images I added to my app."
     let items = try! fm.contentsOfDirectory(atPath: path) // This give us a collection of all the contents of the directory at a path.
