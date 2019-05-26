@@ -9,9 +9,16 @@ You'll see an app that lets users scroll through a list of images, then select o
 ## Programming To-Do List
 - [x] **Listing Images with FileManager** : Get the images from the directory inside our app.
 - [x] **Collect the NSSL images** : Look for the images with the prefix `nssl` and add them to an array property.
+- [x] **Add UITableViewController** : Add the `UITableViewController` that will show the data.
+- [x] **Add UITableViewCell** : Add the `UITableViewCell` to show the data on the pictures array.
 
 ## Demo
 ### features/listing-images-with-filemanager
 | Screenshot 01 |
 | ------------- |
 | ![screenshot01](.screenshots/screenshot01.png) |
+
+### features/designing-interface
+| Screenshot 02 |
+| ------------- |
+| ![screenshot02](.screenshots/screenshot02.png) |
