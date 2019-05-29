@@ -32,6 +32,8 @@ class DetailViewController: UIViewController {
     navigationItem.largeTitleDisplayMode = .never // This avoids large titles on this controller
 
     title = selectedImage
+
+    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
     
     if let imageToLoad = selectedImage {
       imageView.image = UIImage(named: imageToLoad)
@@ -46,5 +48,13 @@ class DetailViewController: UIViewController {
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
     navigationController?.hidesBarsOnTap = false
+  }
+
+  // MARK: - Public Methods
+
+  @objc func shareTapped() {
+    let vc = UIActivityViewController(activityItems: [imageView.image!], applicationActivities: [])
+    vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+    present(vc, animated: true)
   }
 }
