@@ -42,3 +42,8 @@ You'll see an app that lets users scroll through a list of images, then select o
 | Screenshot 07 |
 | ------------- |
 | ![screenshot07](.screenshots/screenshot07.png) |
+
+### features/userdefaults
+| Screenshot 08 |
+| ------------- |
+| ![screenshot08](.screenshots/screenshot08.gif) |
